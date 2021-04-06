@@ -23,4 +23,4 @@
 
 **描述**：环保始终是个全球性的、与我们每个人息息相关的重要问题。相比于具体精确的统计数据，可视化的图表也许更方便我们向社会大众科普和宣传一些知识。以碳排放量为例，可以根据数据制作出全国各省市的碳排放总量、各因素在碳排放总量中所占的比例、我国近年来在碳排放上的变化图来直观地呈现出我国在碳排放上的一些侧面。
 
-**链接**：[中国碳排放量组图]([General-debug.github.io](https://github.com/General-debug/General-debug.github.io)/[hw2](https://github.com/General-debug/General-debug.github.io/tree/main/hw2)/[output](https://github.com/General-debug/General-debug.github.io/tree/main/hw2/output)/**碳排放量_tab.html**)
+**链接**：[中国碳排放量组图](https://General-debug.github.io/hw2/output)/碳排放量_tab.html)
