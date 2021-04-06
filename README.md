@@ -5,7 +5,7 @@
 
 **描述**：对《中华人民共和国国民经济和社会发展第十四个五年规划和2035年远景目标纲要》进行了词频分析，并以词云和饼图的方式进行可视化呈现。
 
-**链接**：[词云](https://general-debug.github.io/hw2/output/%E5%8D%81%E5%9B%9B%E4%BA%94%E8%A7%84%E5%88%92%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1_wordcloud.html)   [饼图](https://general-debug.github.io/hw2/output/%E5%8D%81%E5%9B%9B%E4%BA%94%E8%A7%84%E5%88%92%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1_pie.html)
+**链接**：[词云](https://general-debug.github.io/hw2/output/%E5%8D%81%E5%9B%9B%E4%BA%94%E8%A7%84%E5%88%92%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1_wordcloud.html)   [柱状图](https://general-debug.github.io/hw2/output/%E5%8D%81%E5%9B%9B%E4%BA%94%E8%A7%84%E5%88%92%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1_bar.html)   [饼图](https://general-debug.github.io/hw2/output/%E5%8D%81%E5%9B%9B%E4%BA%94%E8%A7%84%E5%88%92%E8%AF%8D%E9%A2%91%E7%BB%9F%E8%AE%A1_pie.html)
 
 ## 2. 地理连线图
 
