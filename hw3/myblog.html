@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- 必须的 meta 标签 -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap 的 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-olOxEXxDwd20BlATUibkEnjPN3sVq2YWmYOnsMYutq7X8YcUdD6y/1I+f+ZOq/47" crossorigin="anonymous">
+
+    <title>Fox——my first blog!</title>
+  </head>
+  <style>
+    * {
+    box-sizing: border-box;
+    }
+    body {
+        font-family: Arial;
+        margin: 0;
+        background-image: url("./data/bg2.jpg");
+        background-repeat: repeat;
+        background-size: 100%;
+    }
+
+    /* 标题 */
+    .header {
+        padding: 80px;
+        text-align: left;
+        color: white;
+    }
+
+    /* 标题字体加大 */
+    .header h1 {
+        font-size: 60px;
+    }
+
+    /* 导航 */
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        opacity:0.7;
+    }
+
+    /* 导航栏样式 */
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        opacity:0.7;
+    }
+
+    /* 右侧链接*/
+    .navbar a.right {
+        float: right;
+        opacity:0.5;
+    }
+
+    /* 鼠标移动到链接的颜色 */
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    /* 列容器 */
+    .row {  
+        display: -ms-flexbox; /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */
+        flex-wrap: wrap;
+    }
+
+    /* 创建两个列 */
+    /* 边栏 */
+    .side {
+        -ms-flex: 30%; /* IE10 */
+        flex: 30%;
+        background-color: #f1f1f1;
+        padding: 20px;
+        opacity:0.5;
+    }
+
+    /* 主要的内容区域 */
+    .main {   
+        -ms-flex: 70%; /* IE10 */
+        flex: 70%;
+        background-color: white;
+        padding: 20px;
+        opacity:;
+    }
+
+    .card{
+    width:28%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0, 0,0.19);
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    }    
+    .card img {
+        width: 100%;
+    }
+    .card h1{
+        font-size: 20px
+        color: #BFBFBF;
+        display: block;
+        letter-spacing: 2px;
+        padding: 20px 20px;
+    }
+    .card span {
+    font-size: 12px;
+    color: #BFBFBF;
+    display: block;
+    letter-spacing: 2px;
+    padding: 30px 20px;
+    }
+
+
+    /* 测试图片 */
+    .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .list{
+        background-color: #eee;
+        opacity: 0.8
+        width:100%;
+        height: 100%
+        padding: 10px  
+        border: 2px gray;
+        border-radius: 10px;
+    }
+
+    /* 底部 */
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+    /* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+    @media screen and (max-width: 700px) {
+        .row {   
+            flex-direction: column;
+        }
+    }
+
+    /* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+    @media screen and (max-width: 400px) {
+        .navbar a {
+            float: none;
+            width: 100%;
+        }
+    }
+      </style>
+
+
+
+
+
+  <body>
+    <div class="header">
+        <h1>Blog of Zixuan Zhou</h1>
+        <p>Yesterday is history, tomorrow is a mistery.</p>
+        <p>My homepage is in building...</p>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="#" style="background-color:white;color:black">Post</a>
+        <a href="#">Building</a>
+        <a href="./search.html" class="right">Search</a>
+    </div>
+
+    <div class="row">
+        <div class="side">
+            <h2>About Me</h2>
+            <div class="fakeimg" style="height:200px;text-align: center;">NO PHOTO</div>
+            <p>Zhou Zixuan</p>
+            <p>20+ </p>
+            <p>Undergraduate</p>
+            <p>Peking University</p>
+            <p>Majoring in Electronics Engineering</p>
+            <p>EMAIL:19000zzx@pku.edu.cn</p>
+            <h3>Articles</h3>
+            <h3>Posts</h3>
+            <h3>Contact with Me</h3>
+            <div class="fakeimg" style="height:60px;">(￣▼￣)</div><br>
+            <div class="fakeimg" style="height:60px;">(￣▼￣)</div><br>
+            <div class="fakeimg" style="height:60px;">(￣▼￣)</div>
+        </div>
+
+        <div class="main">
+
+            <div>
+                <h1>ABOUT FOX</h1>
+                <p>Lovely Fox!(￣▼￣)</p>
+                <h2>INTRODUCTION</h2>
+                <p style="font-size:19px;line-height:30px">Fox, any of various members of the dog family (Canidae) resembling small to medium-sized bushy-tailed dogs with long fur, pointed ears, and a narrow snout. In a restricted sense, the name refers to the 10 or so species classified as “true” foxes (genus Vulpes), especially the red, or common, fox (V. vulpes), which lives in both the Old World and the New World. Several other foxes belong to genera other than Vulpes, including the North American gray fox, five species of South American fox, the Arctic fox (includes the blue fox), the bat-eared fox, and the crab-eating fox.</p>
+                <p style="font-size:19px;line-height:30px">Widely held as a symbol of animal cunning, the red fox is the subject of considerable folklore. The red fox has the largest natural distribution of any land mammal except human beings. In the Old World it ranges over virtually all of Europe, temperate Asia, and northern Africa; in the New World it inhabits most of North America. Introduced to Australia, it has established itself throughout much of the continent. The red fox has a coat of long guard hairs, soft, fine underfur that is typically a rich reddish brown, often a white-tipped tail, and black ears and legs. Colour, however, is variable; in North America black and silver coats are found, with a variable amount of white or white-banded hair occurring in a black coat. A form called the cross, or brant, fox is yellowish brown with a black cross extending between the shoulders and down the back; it is found in both North America and the Old World. The Samson fox is a mutant strain of red fox found in northwestern Europe. It lacks the long guard hairs, and the underfur is tightly curled.</p>
+
+                <a href="https://www.britannica.com/animal/fox-mammal">See more...</a>
+                <br>
+              
+                <h2>CLASSIFICATION</h2>
+                <div class="list" style="height:400px;">
+                    <ul>
+                        <br>
+                        <li>V. BENGALENSIS (Bengal, or Indian, fox)</li>
+                        <br>
+                        <li>V. CANA (Blanford’s, or hoary, fox)</li>
+                        <br>
+                        <li>V. CHAMA (Cape fox, South African silver fox, or chama)</li>
+                        <br>
+                        <li>V. CORSAC (corsac, or steppe, fox)</li>
+                        <br>
+                        <li>V. FERRILATA (Tibetan fox)</li>
+                        <br>
+                        <li>V. PALLIDA (pale fox)</li>
+                        <br>
+                        <li>V. RUEPPELLI (sand fox)</li>
+                        <br>
+                        <li>V. VELOX (swift fox)</li>
+                        <br>
+                        <li>V. VULPES (red fox)</li>
+                        <br>
+                        <li>V. ZERDA (fennec)</li>
+                    </ul>
+                    <a href="https://www.britannica.com/animal/fox-mammal#ref253006">See more...</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="card">
+                  <img src="./data/beijihu.jpg" class="card-img-top" alt="..." width="100%">
+                  <div style="padding: 10px">
+                    <h3>北极狐</h3>
+                    <span>又名蓝狐、白狐。体长50-60厘米，尾长20-25厘米，体重2.5-4千克。分布于北冰洋的沿岸地带及一些岛屿上的苔原地带。</span>
+                    <a href="https://baike.baidu.com/item/%E5%8C%97%E6%9E%81%E7%8B%90/1193345">click here to see more.</a>
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./data/huohu.jpg" class="card-img-top" alt="..." width="100%">
+                  <div style="padding: 10px">
+                    <h3>赤狐</h3>
+                    <span>又名红狐、草狐、南狐、火狐，银狐、十字狐，共有47个亚种，成兽体长62-72厘米，肩高40厘米，尾长20-40厘，体重5-7千克。分布于整个北半球，包含欧洲、北美洲、亚洲草原以及北非地区。是食肉目中分布最广者。</span>
+                    <a href="https://baike.baidu.com/item/%E8%B5%A4%E7%8B%90/618342">click here to see more.</a>            
+                  </div>
+                </div>
+
+                <div class="card">
+                  <img src="./data/yinhu.jpg" class="card-img-top" alt="..." width="100%">
+                  <div style="padding: 10px">
+                    <h3>银黑狐</h3>
+                    <span>又称银狐，是赤狐的一个变种，起源于北美洲的阿拉斯加和西伯利亚的东部地区。体型与赤狐基本相同，起源于北美洲的阿拉斯加和西伯利亚东部地区，经过100多年的人工饲养驯化。</span>
+                    <a href="https://baike.baidu.com/item/%E9%93%B6%E9%BB%91%E7%8B%90">click here to see more.</a>
+                  </div>
+                </div>
+            </div>
+
+            <div>
+                <h2>APPRECIATE!</h2>
+                <p>(from Internet)</p>
+                <div class="card">
+                    <img src="./data/fox1.jpg" class="card-img-top" alt="..." width="100%">
+                    <div>
+                        <span>夕阳下的深山狐影，摄影师Jiska Houtman</span>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="./data/fox2.jpg" class="card-img-top" alt="..." width="100%">
+                    <div>
+                        <span>亲热嬉戏 twi:@kurinoigaiga ​​​</span>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="./data/fox3.jpg" class="card-img-top" alt="..." width="100%">
+                    <div>
+                        <span>藏狐抓鼠兔 微博:@拍鸟的亦诺</span>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+      <h2>zzx’s html:temp</h2>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-+y+krhFR0UcDYh1BimjL71GifENdMrMw3mJIteOyhJC1MgLzPCCitjqUa9+5OI/k" crossorigin="anonymous"></script>
+  </body>
+</html>
